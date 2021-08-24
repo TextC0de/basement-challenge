@@ -19,7 +19,7 @@ module.exports = withPlugins([[withBundleAnalyzer]], {
 
         return config;
     },
-    basePath: isDev ? "" : "/basement",
+    basePath: isDev ? "" : "/basement-challenge",
     poweredByHeader: false,
     reactStrictMode: true,
     productionBrowserSourceMaps: true,
@@ -27,7 +27,7 @@ module.exports = withPlugins([[withBundleAnalyzer]], {
         NEXT_PUBLIC_HOST: isDev ? "http://localhost:3000" : "https://textcode.me",
     },
     images: {
-        path: isDev ? "" : "/basement",
+        path: isDev ? "" : "/basement-challenge",
         domains: ["localhost", "textcode.me"],
     },
 });
