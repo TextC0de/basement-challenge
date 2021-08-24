@@ -1,0 +1,38 @@
+$duration: 36s;
+
+.infinite-texts {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.infinite-text-1 {
+    display: inline-block;
+    -webkit-animation: infinite-text-1 $duration linear infinite;
+    animation: infinite-text-1 $duration linear infinite;
+}
+
+.infinite-text-2 {
+    display: inline-block;
+    animation: infinite-text-2 $duration linear infinite;
+    animation-delay: $duration / 2;
+}
+
+@keyframes infinite-text-1 {
+    0% {
+        transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+    }
+}
+
+@keyframes infinite-text-2 {
+    0% {
+        -webkit-transform: translateX(0%);
+    }
+    100% {
+        -webkit-transform: translateX(-200%);
+    }
+}

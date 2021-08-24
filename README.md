@@ -1,5 +1,7 @@
 # basement.studio challenge: b. Supply
 
+## El challenge
+
 ![Basement studio](./public/og.png "basement.supply")
 
 Tenemos que implementar el diseño de [este figma](https://www.figma.com/file/BYjaSbdPyhEL0ucneDlIQ0/Dev-Challenge?node-id=1%3A218) (el equipo de diseño trabajó mucho en el figma, para esta primera etapa podemos omitir detalles mientras todo ande), como el backend todavía no está desarrollado el cliente nos dejó un mock en `/product/mock.json`.
