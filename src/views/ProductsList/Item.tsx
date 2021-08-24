@@ -24,7 +24,7 @@ const ProductItem: React.FC<Props> = ({product}) => {
                     <Image
                         alt={product.name}
                         height={578}
-                        src={`${process.env.NEXT_PUBLIC_HOST}/products/${product.image}`}
+                        src={`/products/${product.image}`}
                         width={440}
                     />
                 </div>
@@ -33,7 +33,7 @@ const ProductItem: React.FC<Props> = ({product}) => {
                     <Image
                         alt="Add to cart"
                         height={127}
-                        src={`${process.env.NEXT_PUBLIC_HOST}/add-to-car.svg`}
+                        src={`/add-to-car.svg`}
                         width={231}
                     />
                 </div>

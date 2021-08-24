@@ -19,14 +19,15 @@ module.exports = withPlugins([[withBundleAnalyzer]], {
 
         return config;
     },
-    basePath: isDev ? "" : "",
+    basePath: isDev ? "" : "/basement",
     poweredByHeader: false,
     reactStrictMode: true,
     productionBrowserSourceMaps: true,
     env: {
-        NEXT_PUBLIC_HOST: isDev ? "http://localhost:3000" : "https://remotto.conferencia.cl",
+        NEXT_PUBLIC_HOST: isDev ? "http://localhost:3000" : "https://textcode.me",
     },
     images: {
+        path: isDev ? "" : "/basement",
         domains: ["localhost", "textcode.me"],
     },
 });

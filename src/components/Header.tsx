@@ -15,7 +15,7 @@ const Header: React.FC = () => {
                 <Image
                     alt="Basement"
                     height={32}
-                    src={`${process.env.NEXT_PUBLIC_HOST}/logo.svg`}
+                    src={`/logo.svg`}
                     width={192}
                 />
             </div>
@@ -24,7 +24,7 @@ const Header: React.FC = () => {
                 <Image
                     alt="Basement"
                     height={43}
-                    src={`${process.env.NEXT_PUBLIC_HOST}/logo-mobile.svg`}
+                    src={`/logo-mobile.svg`}
                     width={40}
                 />
             </div>
@@ -33,7 +33,7 @@ const Header: React.FC = () => {
                 <Image
                     alt=""
                     height={24}
-                    src={`${process.env.NEXT_PUBLIC_HOST}/header-icons.svg`}
+                    src={`/header-icons.svg`}
                     width={284}
                 />
             </div>

@@ -11,11 +11,11 @@ export type SeoProps = {
 const Seo: React.FC<SeoProps> = ({
     title = "Basement Supply",
     description = "Coding challenge for basement.studio.",
-    image = `${process.env.NEXT_PUBLIC_HOST}/og.png`,
+    image = `/og.png`,
     indexable,
 }) => {
     const router = useRouter();
-    const url = `${process.env.NEXT_PUBLIC_HOST}${router.pathname}`;
+    const url = `${router.pathname}`;
 
     return (
         <Head>

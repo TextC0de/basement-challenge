@@ -10,7 +10,7 @@ const Hero: React.FC = () => (
             <Image
                 alt="Basement"
                 height={365}
-                src={`${process.env.NEXT_PUBLIC_HOST}/hero.svg`}
+                src={`/hero.svg`}
                 width={1376}
             />
         </div>
@@ -28,7 +28,7 @@ const Hero: React.FC = () => (
                     <Image
                         alt=""
                         height={147}
-                        src={`${process.env.NEXT_PUBLIC_HOST}/asterisk-1.svg`}
+                        src={`/asterisk-1.svg`}
                         width={147}
                     />
                 </div>
@@ -37,7 +37,7 @@ const Hero: React.FC = () => (
                     <Image
                         alt=""
                         height={168}
-                        src={`${process.env.NEXT_PUBLIC_HOST}/asterisk-2.svg`}
+                        src={`/asterisk-2.svg`}
                         width={160}
                     />
                 </div>

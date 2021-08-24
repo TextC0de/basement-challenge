@@ -18,7 +18,7 @@ const CartItem: React.FC<Props> = ({product}) => {
                 <Image
                     alt={product.name}
                     height={225}
-                    src={`${process.env.NEXT_PUBLIC_HOST}/products/${product.image}`}
+                    src={`/products/${product.image}`}
                     width={220}
                 />
             </div>

@@ -33,7 +33,7 @@ const Checkout: React.FC = () => {
                 <Image
                     alt="Checkout"
                     height={31}
-                    src={`${process.env.NEXT_PUBLIC_HOST}/checkout.svg`}
+                    src={`/checkout.svg`}
                     width={236}
                 />
             </span>

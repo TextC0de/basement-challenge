@@ -45,7 +45,7 @@ const CartModal = () => {
                         <Image
                             alt="Your cart"
                             height={93}
-                            src={`${process.env.NEXT_PUBLIC_HOST}/your-cart.svg`}
+                            src={`/your-cart.svg`}
                             width={761}
                         />
                     </div>
@@ -54,7 +54,7 @@ const CartModal = () => {
                         <Image
                             alt="Your cart"
                             height={193}
-                            src={`${process.env.NEXT_PUBLIC_HOST}/your-cart-mobile.svg`}
+                            src={`/your-cart-mobile.svg`}
                             width={343}
                         />
                     </div>
